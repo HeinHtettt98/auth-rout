@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-200;
+}
+
+@layer components {
+  .box {
+    @apply w-[500px] h-full mx-auto flex items-center;
+  }
+}
